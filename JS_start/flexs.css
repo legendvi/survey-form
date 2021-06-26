@@ -1,0 +1,38 @@
+#container{
+    height: 75vh;
+    width: 75vh;
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+    
+    
+}
+#container div{
+    width: 200px;
+    height: 200px; 
+    position: relative;
+    
+}
+
+#div1{
+    background-color: aqua;
+     
+}
+#div2{
+    background-color: palegreen;
+  
+
+
+
+}
+
+#div3{
+    background-color: blue;
+    
+    
+}
+#div4{
+    background-color: blueviolet;
+    
+    
+}
