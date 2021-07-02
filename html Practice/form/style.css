@@ -1,0 +1,39 @@
+.head {
+  font-weight: bold;
+  font-size: large;
+  display: inline-block;
+  margin: 1.2rem;
+}
+.man {
+  color: red;
+}
+
+.input {
+  font-size: 1.2rem;
+  margin: 1.2rem;
+}
+
+p {
+  margin: 1.2rem;
+}
+.tablemargin {
+  margin: 10px;
+}
+
+.button {
+  margin: 1.2rem;
+  display: inline-block;
+  width: 5%;
+  height: 3.3rem;
+}
+
+#suggestions {
+  width: 4rem;
+}
+tr:nth-child(2n) {
+  background-color: gainsboro;
+}
+tr {
+  margin: 1.2em;
+  padding: 1.2rem;
+}
