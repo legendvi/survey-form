@@ -8,19 +8,26 @@
     <title>Sample Form</title>
   </head>
   <body>
-    <form id="form">
+    <form id="form" method="Post">
       <label for="firstname" class="head">Name</label>
       <span class="man">*</span><br />
-      <input type="text" placeholder="Firstname" id="firstname" class="input" />
+      <input
+        type="text"
+        placeholder="Firstname"
+        id="firstname"
+        class="input"
+        required
+      />
       <input
         id="lastname"
         type="text"
         placeholder="Last name"
         class="input"
+        required
       /><br />
       <label for="email" class="head">E-mail</label><span class="man">*</span
       ><br />
-      <input type="email" class="input" id="email" /><br />
+      <input type="email" class="input" id="email" required /><br />
       <label for="experience" class="head">Rate your Experience</label
       ><span class="man">*</span><br />
       <input
@@ -29,9 +36,10 @@
         id="experience"
         min="1"
         max="5"
+        required
       /><br />
-      <p>how would you rate your overall experience</p>
-      <table>
+      <p>how would you rate your overall experience!!</p>
+      <table class="table">
         <span class="head">How Statisfied are you:</span>
         <span class="man">*</span>
         <tr>
@@ -45,7 +53,7 @@
         <tr>
           <th class="tablemargin">Purchase</th>
           <td class="tablemargin">
-            <input type="radio" name="statisfied1" value="1" />
+            <input type="radio" name="statisfied1" value="1" required />
           </td>
           <td class="tablemargin">
             <input type="radio" name="statisfied1" value="2" />
@@ -63,7 +71,7 @@
         <tr>
           <th class="tablemargin">Service</th>
           <td class="tablemargin">
-            <input type="radio" name="statisfied2" value="1" />
+            <input type="radio" name="statisfied2" value="1" required />
           </td>
           <td class="tablemargin">
             <input type="radio" name="statisfied2" value="2" />
@@ -81,7 +89,7 @@
         <tr>
           <th class="tablemargin">Company Overall</th>
           <td class="tablemargin">
-            <input type="radio" name="statisfied3" value="1" />
+            <input type="radio" name="statisfied3" value="1" required />
           </td>
           <td class="tablemargin">
             <input type="radio" name="statisfied3" value="2" />
@@ -97,46 +105,76 @@
           </td>
         </tr>
       </table>
-      <table>
+      <table class="table">
         <span class="head">How likey are you to:</span>
         <span class="man">*</span>
         <tr>
-          <th></th>
-          <th>Very Unlikely</th>
-          <th>Ulikely</th>
-          <th>Neutral</th>
-          <th>Likely</th>
-          <th>Very Likely</th>
+          <th class="tablemargin"></th>
+          <th class="tablemargin">Very Unlikely</th>
+          <th class="tablemargin">Ulikely</th>
+          <th class="tablemargin">Neutral</th>
+          <th class="tablemargin">Likely</th>
+          <th class="tablemargin">Very Likely</th>
         </tr>
         <tr>
-          <th>Buy from us again</th>
-          <td><input type="radio" name="likely1" value="1" /></td>
-          <td><input type="radio" name="likely1" value="2" /></td>
-          <td><input type="radio" name="likely1" value="3" /></td>
-          <td><input type="radio" name="likely1" value="4" /></td>
-          <td><input type="radio" name="likely1" value="5" /></td>
+          <th class="tablemargin">Buy from us again</th>
+          <td class="tablemargin">
+            <input type="radio" name="likely1" value="1" required />
+          </td>
+          <td class="tablemargin">
+            <input type="radio" name="likely1" value="2" />
+          </td>
+          <td class="tablemargin">
+            <input type="radio" name="likely1" value="3" />
+          </td>
+          <td class="tablemargin">
+            <input type="radio" name="likely1" value="4" />
+          </td>
+          <td class="tablemargin">
+            <input type="radio" name="likely1" value="5" />
+          </td>
         </tr>
         <tr>
-          <th>Recommend your product to others</th>
-          <td><input type="radio" name="likely2" value="1" /></td>
-          <td><input type="radio" name="likely2" value="2" /></td>
-          <td><input type="radio" name="likely2" value="3" /></td>
-          <td><input type="radio" name="likely2" value="4" /></td>
-          <td><input type="radio" name="likely2" value="5" /></td>
+          <th class="tablemargin">Recommend your product to others</th>
+          <td class="tablemargin">
+            <input type="radio" name="likely2" value="1" required />
+          </td>
+          <td class="tablemargin">
+            <input type="radio" name="likely2" value="2" />
+          </td>
+          <td class="tablemargin">
+            <input type="radio" name="likely2" value="3" />
+          </td>
+          <td class="tablemargin">
+            <input type="radio" name="likely2" value="4" />
+          </td>
+          <td class="tablemargin">
+            <input type="radio" name="likely2" value="5" />
+          </td>
         </tr>
         <tr>
-          <th>Recommend our company to others</th>
-          <td><input type="radio" name="likely3" value="1" /></td>
-          <td><input type="radio" name="likely3" value="2" /></td>
-          <td><input type="radio" name="likely3" value="3" /></td>
-          <td><input type="radio" name="likely3" value="4" /></td>
-          <td><input type="radio" name="likely3" value="5" /></td>
+          <th class="tablemargin">Recommend our company to others</th>
+          <td class="tablemargin">
+            <input type="radio" name="likely3" value="1" required />
+          </td>
+          <td class="tablemargin">
+            <input type="radio" name="likely3" value="2" />
+          </td>
+          <td class="tablemargin">
+            <input type="radio" name="likely3" value="3" />
+          </td>
+          <td class="tablemargin">
+            <input type="radio" name="likely3" value="4" />
+          </td>
+          <td class="tablemargin">
+            <input type="radio" name="likely3" value="5" />
+          </td>
         </tr>
       </table>
       <label for="suggestions" class="head"
         >Additional Comments or suggestions</label
       ><br />
-      <textarea id="suggesions" class="input"></textarea>
+      <textarea id="suggestions" class="input"></textarea>
       <br />
       <button class="button" type="submit" name="button">submit</button>
     </form>
