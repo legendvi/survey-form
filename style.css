@@ -1,0 +1,60 @@
+body {
+  margin-left: 10px;
+  background-image: linear-gradient(yellowgreen, green 50%);
+}
+.head {
+  font-weight: bold;
+  font-size: large;
+  display: inline-block;
+  margin: 1.2rem;
+}
+.man {
+  color: red;
+}
+
+.input {
+  font-size: 1.2rem;
+  margin: 1.2rem;
+  background-color: wheat;
+}
+
+p {
+  margin: 1.2rem;
+  font-weight: 300;
+}
+.table {
+  margin-left: 5%;
+  margin-bottom: 2%;
+  margin-top: 1%;
+}
+#experience {
+  margin-bottom: 0px;
+}
+.tablemargin {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.button {
+  margin: 1.2rem;
+  display: inline-block;
+  width: 5%;
+  height: 3.3rem;
+  border-radius: 10px;
+}
+
+#suggestions {
+  width: 20%;
+  height: 10rem;
+}
+tr:nth-child(2n) {
+  background-color: gainsboro;
+}
+tr:nth-child(odd) {
+  background-color: whitesmoke;
+}
+tr {
+  margin: 1.2em;
+  padding: 1.2rem;
+}
